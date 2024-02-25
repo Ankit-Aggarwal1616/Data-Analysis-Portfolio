@@ -9,6 +9,6 @@ Goal: Determine geographical and monthly Covid-19 trends in India and forecast s
 
 Summary: This project involved analyzing a dataset of worldwide Covid-19 confirmed cases, recoveries, and deaths, narrowing it down to India and Delhi. It included data cleaning, exploratory data analysis on monthly and geographical trends, and forecasting future data from July 2020 to 100 days past May 2021.
 
-Skills and Technologies: Python (Pandas, Numpy, Seaborn, Matplotlib, Prophet), Data Visualization, Data Analysis, Hypothesis Testing
+Skills and Technologies: Python (Pandas, Numpy, Seaborn, Matplotlib, Prophet), Data Visualization, Data Analysis, Hypothesis Testing, Forecasting
 
 Results: The analysis revealed an upward trend in Covid-19 cases, forecasting safety considerations for the 100 days beyond May 2021. However, limitations were acknowledged, including the absence of factors like vaccination status and herd immunity in the analysis.
