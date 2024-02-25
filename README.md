@@ -5,6 +5,8 @@ Hi, I'm Ankit! Welcome to my Data Analytics Portfolio! As a dedicated and result
 
 ### [Analysis of Covid-19 in India](/Covid_India.ipynb)
 
+[Tableau Visualization](https://public.tableau.com/app/profile/ankit.aggarwal7213/viz/Covid-19inIndia_17086550939330/Covid-19Dashboard?publish=yes)
+
 Goal: Determine geographical and monthly Covid-19 trends in India and forecast safety in the 100 days beyond May 2021.
 
 Summary: This project involved analyzing a dataset of worldwide Covid-19 confirmed cases, recoveries, and deaths, narrowing it down to India and Delhi. It included data cleaning, exploratory data analysis on monthly and geographical trends, and forecasting future data from July 2020 to 100 days past May 2021.
