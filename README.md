@@ -5,10 +5,10 @@ Hi, I'm Ankit! Welcome to my Data Analytics Portfolio! As a dedicated and result
 
 ### [Analysis of Covid-19 in India](/Covid_India.ipynb)
 
-Goal: To determine geographical and monthly Covid-19 trends in India and to forecast safety in future months passed the data in the dataset.
+Goal: Determine geographical and monthly Covid-19 trends in India and forecast safety in the 100 days beyond May 2021.
 
-Summary: This project involved analyzing a dataset of worldwide Covid-19 confirmed cases, recoveries, and deaths and narrowing it down to India as a whole and Delhi as a state within India. The project involved cleaning and processing data, performing exploratory data analysis regarding monthly and geographical trends, and forecasting future data past the timefame of July 2020 to May 2021. 
+Summary: This project involved analyzing a dataset of worldwide Covid-19 confirmed cases, recoveries, and deaths, narrowing it down to India and Delhi. It included data cleaning, exploratory data analysis on monthly and geographical trends, and forecasting future data from July 2020 to 100 days past May 2021.
 
 Skills and Technologies: Python (Pandas, Numpy, Seaborn, Matplotlib, Prophet), Data Visualization, Data Analysis, Hypothesis Testing
 
-Results: The analysis revealed that Covid-19 cases would continue to trend upwards. However, the analysis was limited by the lack of additional factors including but not limited to vaccination status, herd immunity status, and public mask usage among others.  
+Results: The analysis revealed an upward trend in Covid-19 cases, forecasting safety considerations for the 100 days beyond May 2021. However, limitations were acknowledged, including the absence of factors like vaccination status and herd immunity in the analysis.
