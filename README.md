@@ -10,7 +10,7 @@ Goal: Identify the key factors influencing board game ratings to enhance user en
 
 Summary: This project encompassed a comprehensive analysis of 20,000+ board games, aiming to pinpoint the factors contributing to positive user ratings and lower BGG rankings. It involved extensive data cleaning, exploratory data analysis, and the application of machine learning models. 
 
-Skills and Technologies: Python (Pandas, Numpy, Seaborn, Matplotlib, scikit-learn), Data Visualization, Data Analysis, Hypothesis Testing, Correlation Matrices, Linear Regression, Random Forest, SVM (Support Vector Machine), KNN (K Nearest Neighbors)
+Skills and Technologies: Python (Pandas, Numpy, Seaborn, Matplotlib, Scikit-learn), Data Visualization, Data Analysis, Hypothesis Testing, Correlation Matrices, Linear Regression, Random Forest, SVM (Support Vector Machine), KNN (K Nearest Neighbors)
 
 Results: The findings highlighted several determinants of high user ratings, including complexity, minimum age, minimum player count, specific mechanics (dice rolling, hand management, auctions), and the game's domain (strategy, war, family). These insights offer valuable guidance for enhancing board game design and marketing strategies to boost ratings and sales.
 
