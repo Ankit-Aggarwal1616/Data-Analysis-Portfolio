@@ -263,4 +263,4 @@ Output:
 
 --
 > [!NOTE]
-> Jordan Winthrop, who retired, should be excluded from consideration. On the other hand, George Johnson is a candidate worth considering, especially since he earned less than the average salary for his department.
+> Jordan Winthrop, who retired, should be excluded from consideration. On the other hand, George Johnson is a candidate worth considering, especially since he earned less than the average salary for his department (Production - $60,419.26)
