@@ -1,10 +1,18 @@
 NEED TO ADD AVERAGE ENGAGEMENT AS WELL
 
-How many employees? 
+How many employees currently work?
+
+How many employees have been terminated for any reason?
 
 How many employees does each manager manage?
 
-select ManagerName, count(*) from employee where EmploymentStatus = 'Active' group by ManagerName
+```sql
+	select ManagerName, count(*) from employee where EmploymentStatus = 'Active' group by ManagerName
+```
+
+Which managers seem to be doing the best in terms of average employee engagement?
+
+
 
 what is the average salary and happiness per department?
 
