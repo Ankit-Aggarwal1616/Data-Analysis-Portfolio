@@ -261,6 +261,5 @@ Output:
 
 ![image](https://github.com/Ankit-Aggarwal1616/Data-Portfolio/assets/161187358/57b2ac89-0c77-488c-9dcc-f7cd2efd50ac)
 
---
 > [!NOTE]
 > Jordan Winthrop, who retired, should be excluded from consideration. On the other hand, George Johnson is a candidate worth considering, especially since he earned less than the average salary for his department (Production - $60,419.26)
