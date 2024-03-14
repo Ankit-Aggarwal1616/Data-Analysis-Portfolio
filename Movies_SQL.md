@@ -15,7 +15,7 @@ LEFT JOIN
 What is the average IMDb rating for both shows and movies in the dataset?
 ```sql
 SELECT
-	AVG(CASE WHEN show_type = 'SHOW' THEN imdb_score END) AS avg_imdb_rating_show,
+    AVG(CASE WHEN show_type = 'SHOW' THEN imdb_score END) AS avg_imdb_rating_show,
     AVG(CASE WHEN show_type = 'MOVIE' THEN imdb_score END) AS avg_imdb_rating_movie
 FROM 
 	titles 
@@ -60,7 +60,7 @@ FROM
 Among actors, who has the highest average IMDb rating for their roles in movies and shows?
 ```sql
 SELECT
-	name,
+    name,
     role,
     production_countries,
     avg(imdb_score),
@@ -68,11 +68,11 @@ SELECT
     COUNT(DISTINCT Case when show_type like 'show' then id end) as numtvshows,
     COUNT(DISTINCT CASE WHEN show_type like 'movie' then id end) as nummovies
 FROM
-	titles t JOIN credits c
+    titles t JOIN credits c
 ON 
-	t.id = c.title_id
+    t.id = c.title_id
 WHERE
-	role like 'actor'
+    role like 'actor'
 GROUP BY
 	name, role, production_countries
 HAVING
