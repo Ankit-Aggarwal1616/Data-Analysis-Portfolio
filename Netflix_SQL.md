@@ -46,16 +46,16 @@ Output:
 4. Is there a clear relationship between the number of IMDb votes and IMDb ratings?
 ```sql
 SELECT
-    ROUND(AVG(CASE WHEN imdb_votes < 50000 then imdb_score end), 2) as under_50k_votes,
-    ROUND(AVG(CASE WHEN imdb_votes BETWEEN 50000 and 100000 then imdb_score end), 2) as between_50k_and_100k_votes,
-    ROUND(AVG(CASE WHEN imdb_votes BETWEEN 100000 and 250000 then imdb_score end), 2)as between_100k_and_250k_votes,
-    ROUND(AVG(CASE WHEN imdb_votes > 250000 then imdb_score end), 2) as over_250k_votes
+    ROUND(AVG(CASE WHEN imdb_votes < 50000 then imdb_score end), 2) as rating_under_50k_votes,
+    ROUND(AVG(CASE WHEN imdb_votes BETWEEN 50000 and 100000 then imdb_score end), 2) as rating_between_50k_and_100k_votes,
+    ROUND(AVG(CASE WHEN imdb_votes BETWEEN 100000 and 250000 then imdb_score end), 2)as rating_between_100k_and_250k_votes,
+    ROUND(AVG(CASE WHEN imdb_votes > 250000 then imdb_score end), 2) as rating_over_250k_votes
 FROM
     titles
 ```
 
 Output:  
-![image](https://github.com/Ankit-Aggarwal1616/Data-Portfolio/assets/161187358/8f79fbf8-f58b-4098-a3cf-704beb907764)
+![image](https://github.com/Ankit-Aggarwal1616/Data-Portfolio/assets/161187358/1c18dc94-d58a-45a2-ab84-669b71d4aeba)
 
 5. What is the average IMDb rating for TV shows based on their duration: under 20 minutes, between 20 and 40 minutes, and over 40 minutes?
 ```sql
