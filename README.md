@@ -1,4 +1,4 @@
-Hey there, I'm Ankit! Delighted to have you visit my portfolio. I'm all about diving into data and crafting meaningful insights that drive real results. With a solid background in computer science and a knack for Python, SQL, and Tableau, I thrive in unraveling intricate data puzzles. Whether it's collaborating seamlessly across teams or painting a clear picture through communication, I'm all about empowering data-driven decisions. Take a tour of my portfolio to see how I blend technical prowess with strategic data analysis.
+Hello, I'm Ankit! Welcome to my portfolio, where I specialize in uncovering valuable insights from data. With a strong foundation in computer science and expertise in Python, SQL, and Tableau, I excel in solving complex data challenges. Whether it's collaborating effectively across teams or effectively communicating insights, I'm dedicated to enabling data-driven decision-making. Explore my portfolio to see how I combine technical skills with strategic analysis.
 
 ## Portfolio Projects
 
