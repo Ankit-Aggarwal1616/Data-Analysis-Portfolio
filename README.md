@@ -55,7 +55,7 @@ Summary: This project entails exploring various facets of the HR dataset, includ
 
 Skills and Technologies: SQL (joins, common table expressions, subqueries, window functions), MySQL.
 
-Outcomes: The analysis offers valuable insights into employee dynamics and organizational trends, aiding in decision-making processes related to performance improvement, talent management, and recruitment strategies. These insights may inform HR policies and practices aimed at enhancing employee satisfaction, productivity, and retention.
+Results: The analysis offers valuable insights into employee dynamics and organizational trends, aiding in decision-making processes related to performance improvement, talent management, and recruitment strategies. These insights may inform HR policies and practices aimed at enhancing employee satisfaction, productivity, and retention.
 
 ### Other Tableau Visualizations
 
