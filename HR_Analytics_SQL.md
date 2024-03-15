@@ -1,10 +1,7 @@
 # HR Analytics
-Table Structure (employee):
-
-![image](https://github.com/Ankit-Aggarwal1616/Data-Portfolio/assets/161187358/9cedf701-da19-4e61-8dc9-10034e1c3ab6)
 
 
-
+This project focuses on analyzing HR data to uncover insights into employee performance, termination trends, managerial effectiveness, recruitment strategies, and other key factors. Through SQL queries and analysis, I aim to extract actionable findings to optimize HR processes and enhance organizational performance.
 
 **1**. How many employees are currently active?
 
