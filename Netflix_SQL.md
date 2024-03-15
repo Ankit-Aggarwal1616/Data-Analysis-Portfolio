@@ -399,7 +399,7 @@ LIMIT 1
 Output:  
 ![image](https://github.com/Ankit-Aggarwal1616/Data-Portfolio/assets/161187358/5eb51373-a1ea-4357-8024-4b2b6ba661ea)
 
-19. Netflix is currently considering the production of an original TV show and is evaluating various factors including the location and the key personnel involved. The company is contemplating both the US and Korea as potential production sites. In terms of casting and directing, they are interested in knowing the top TV show actor and director from each country based on IMDb rating, with a requirement of having been involved in at least 2 prior Netflix roles directed or acted in.
+19. Netflix is currently considering the production of an original TV show and is evaluating various factors including the location and the key personnel involved. The company is contemplating both the US and Korea as potential production sites. In terms of casting and directing, they are interested in knowing the top TV show director and the top 5 TV show actors from each country based on IMDb rating, with a requirement of having been involved in at least 2 prior Netflix roles directed or acted in.
 ```sql
 (
     SELECT
@@ -440,7 +440,7 @@ UNION
         COUNT(CASE WHEN show_type like 'show' THEN 1 end) >= 2
     ORDER BY
         avg_imdb_score DESC
-    LIMIT 1
+    LIMIT 5
 )
 UNION
 (
@@ -482,10 +482,11 @@ UNION
         COUNT(CASE WHEN show_type like 'show' THEN 1 end) >= 2
     ORDER BY
         avg_imdb_score DESC
-    LIMIT 1
+    LIMIT 5
 );
 ```
 
 Output:  
-![image](https://github.com/Ankit-Aggarwal1616/Data-Portfolio/assets/161187358/677b194b-2f60-4213-9768-35dd84815c00)
+![image](https://github.com/Ankit-Aggarwal1616/Data-Portfolio/assets/161187358/aeb6c8d5-6674-47d6-982c-a68d88ccee91)
+
 
