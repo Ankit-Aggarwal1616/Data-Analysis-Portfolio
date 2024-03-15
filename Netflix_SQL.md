@@ -57,7 +57,7 @@ FROM
 Output:  
 ![image](https://github.com/Ankit-Aggarwal1616/Data-Portfolio/assets/161187358/1c18dc94-d58a-45a2-ab84-669b71d4aeba)
 
-5. What is the average IMDb rating for TV shows based on their duration: under 20 minutes, between 20 and 40 minutes, and over 40 minutes?
+5. What is the average IMDb rating for TV shows based on their episode length: under 20 minutes, between 20 and 40 minutes, and over 40 minutes?
 ```sql
 SELECT
     ROUND(AVG(CASE WHEN runtime < 25 THEN imdb_score END), 2) AS avg_imdb_score_under_25_minutes,
